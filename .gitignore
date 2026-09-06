@@ -1,0 +1,43 @@
+# Build artifacts
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+dist/
+
+# Native builds
+ios/
+android/
+
+# Coverage & tests
+coverage/
+jest-reports/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local SQLite db (dev runtime data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Local secure store dump
+securestore-dump.json
+
+# OS
+Thumbs.db

@@ -1,0 +1,41 @@
+# Money-zen — EditorConfig (cohérence multi-éditeurs)
+# Compatible VS Code, WebStorm, Sublime Text, Vim, Emacs, etc.
+# Spec : https://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 100
+
+[*.{ts,tsx,js,jsx,json,jsonc,md,yml,yaml}]
+indent_size = 2
+
+[*.{ts,tsx,js,jsx}]
+ij_typescript_use_double_quotes = false
+ij_typescript_force_quote_style = true
+ij_typescript_force_semicolon_style = true
+ij_typescript_use_path_mapping = always
+ij_typescript_imports_indent_relative = false
+
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+[Makefile]
+indent_style = tab
+
+[*.{sh,bash}]
+indent_size = 4
+end_of_line = lf
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.json]
+indent_size = 2
