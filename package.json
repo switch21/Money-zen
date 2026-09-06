@@ -91,5 +91,9 @@
   },
   "expo": {
     "installExclude": ["@testing-library/react-native", "jest", "jest-expo"]
+  },
+  "overrides": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0"
   }
 }
