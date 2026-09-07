@@ -191,9 +191,9 @@ export const FONT_SIZE = {
   md: 15,
   lg: 18,
   xl: 22,
-  2xl: 28,
-  3xl: 34,
-  4xl: 44,
+  '2xl': 28,
+  '3xl': 34,
+  '4xl': 44,
 } as const;
 
 export const LINE_HEIGHT = {
